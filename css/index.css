@@ -105,7 +105,6 @@ h1:after {
 .resu_item .list li .user_item{
     float: left;
     width: 300px;
-    line-height: 15px;
 }
 .visibity-xs {
     display: none;
@@ -132,6 +131,7 @@ h1:after {
     .resu_item .list li .user_item {
         /* width: 50%;
         white-space: nowrap; */
+        line-height: 15px;
     }
     .resu_item .list li:before {
         left: 0;
