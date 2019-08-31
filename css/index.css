@@ -127,4 +127,8 @@ h1:after {
     .resu_item .list li:before {
         left: 0;
     }
+    .resu_item .list li {
+        line-height: 24px;
+        margin-bottom： 10px;
+    }
 }
