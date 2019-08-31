@@ -90,6 +90,10 @@ h1:after {
     font-weight: bold;
     margin: 10px 0;
 }
+
+.resu_item .list li.company .skill {
+    /* white-space: nowrap; */
+}
 .resu_item .list li.tit {
     font-weight: bold;
     margin: 10px 0;
@@ -102,7 +106,9 @@ h1:after {
     float: left;
     width: 300px;
 }
-
+.visibity-xs {
+    display: none;
+}
 @media screen and (max-width: 750px) {
     .wrap {
         width: 90%;
@@ -114,11 +120,13 @@ h1:after {
     }
     .resu_item h2 {
         font-size: 20px;
-        margin: 10px 0 15px 0;
+        margin: 15px 0 12px 0;
     }
     .resu_item .list li {
         padding: 0 0 0 20px;
         font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 10px;
     }
     .resu_item .list li .user_item {
         /* width: 50%;
@@ -127,8 +135,11 @@ h1:after {
     .resu_item .list li:before {
         left: 0;
     }
-    .resu_item .list li {
-        line-height: 24px;
-        margin-bottom: 10px;
+    .hidden-xs {
+        display: none;
     }
+    .visibity-xs {
+        display: block;
+    }
+    
 }
